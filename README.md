@@ -4,7 +4,7 @@
  [![GitHub Repo stars](https://img.shields.io/github/stars/msafdev/bg-snippet?style=flat&color=yellow)](https://github.com/msafdev/bg-snippet/stargazers)
 
 
-## 🌌 Modern Background Snippets
+## 🌆 Modern Background Snippets
 
 ![image](https://raw.githubusercontent.com/msafdev/bg-snippet/af5aaea30cb3d807e57ddac4b03b26bb9c94692a/public/cover.png)
 
