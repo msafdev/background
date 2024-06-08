@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<a href="https://bg.msaf.tech/">
+  <img src="https://deploy-badge.vercel.app/vercel/bg-snippet" alt="Vercel Deploy"></img>
+</a>
+<a href="https://github.com/msafdev/bg-snippet/blob/main/LICENSE.txt">
+  <img src="https://img.shields.io/github/license/msafdev/bg-snippet" alt="License">
+</a>
+<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/msafdev/bg-snippet?style=flat&label=stargazers&color=yellow">
+<img alt="GitHub watchers" src="https://img.shields.io/github/watchers/msafdev/bg-snippet?style=flat">
 
-## Getting Started
 
-First, run the development server:
+## 🌌 Modern Background Snippets
 
+![image](https://raw.githubusercontent.com/msafdev/bg-snippet/af5aaea30cb3d807e57ddac4b03b26bb9c94692a/public/cover.png)
+
+Supercharge your website with modern background snippets. This app provides a collection of backgrounds that you can use for your website.
+
+### 📦 Requirements
+
+First, install Next.js with Tailwind CSS:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+bunx create-next-app@latest -e with-tailwindcss
+```
+Then install shadcn-ui, and pick your favorite theme, or generate a new one:
+```bash
+bunx shadcn-ui@latest init
+```
+Lastly, install next-themes:
+```bash
+bun add next-themes
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 🚀 Usage
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Visit the live app [here](https://bg.msaf.tech/). Then click on the snippet you like to copy the code. You can also change the theme of the app to play around with the backgrounds.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### 🚦 To Do
 
-## Learn More
+- [x] Add CSS variables
+- [ ] Add CI/CD pipeline
+- [ ] Add more snippets
 
-To learn more about Next.js, take a look at the following resources:
+### 📝 Contribute
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Feel free to contribute to this project. For more information, check the [CONTRIBUTING.md]("https://github.com/msafdev/bg-snippet/blob/main/CONTRIBUTING.md") file.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+#### Disclaimer
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+> This app is an improved version of [bg.ibelick]("https://bg.ibelick.com"). I added CSS variables and next-themes to make it more dynamic and developer-friendly.
