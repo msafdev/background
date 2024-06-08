@@ -1,12 +1,7 @@
-<a href="https://bg.msaf.tech/">
-  <img src="https://deploy-badge.vercel.app/vercel/bg-snippet" alt="Vercel Deploy"></img>
-</a>
-<a href="https://github.com/msafdev/bg-snippet/blob/main/LICENSE.txt">
-  <img src="https://img.shields.io/github/license/msafdev/bg-snippet" alt="License">
-</a>
-<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/msafdev/bg-snippet?style=flat&label=stargazers&color=yellow">
-<img alt="GitHub watchers" src="https://img.shields.io/github/watchers/msafdev/bg-snippet?style=flat">
-
+ [![Vercel Deploy](https://deploy-badge.vercel.app/vercel/bg-snippet)](https://bg.msaf.tech/)
+ [![License](https://img.shields.io/github/license/msafdev/bg-snippet) ](https://github.com/msafdev/bg-snippet/blob/main/LICENSE.txt)
+ [![Issues](https://img.shields.io/github/issues/msafdev/bg-snippet) ](https://github.com/msafdev/bg-snippet/issues)
+ [![GitHub Repo stars](https://img.shields.io/github/stars/msafdev/bg-snippet?style=flat&color=yellow)](https://github.com/msafdev/bg-snippet/stargazers)
 
 ## 🌌 Modern Background Snippets
 
@@ -17,14 +12,19 @@ Supercharge your website with modern background snippets. This app provides a co
 ### 📦 Requirements
 
 First, install Next.js with Tailwind CSS:
+
 ```bash
 bunx create-next-app@latest -e with-tailwindcss
 ```
+
 Then install shadcn-ui, and pick your favorite theme, or generate a new one:
+
 ```bash
 bunx shadcn-ui@latest init
 ```
+
 Lastly, install next-themes:
+
 ```bash
 bun add next-themes
 ```
