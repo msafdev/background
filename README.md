@@ -47,3 +47,5 @@ Feel free to contribute to this project. For more information, check the [CONTRI
 #### Disclaimer
 
 > This app is an improved version of [bg.ibelick]("https://bg.ibelick.com"). I added CSS variables and next-themes to make it more dynamic and developer-friendly.
+
+The project uses *Next.js*, *TailwindCSS*, *shadcn-ui*, and *Typescript*.
