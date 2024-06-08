@@ -1,7 +1,8 @@
  [![Vercel Deploy](https://deploy-badge.vercel.app/vercel/bg-snippet)](https://bg.msaf.tech/)
- [![License](https://img.shields.io/github/license/msafdev/bg-snippet) ](https://github.com/msafdev/bg-snippet/blob/main/LICENSE.txt)
- [![Issues](https://img.shields.io/github/issues/msafdev/bg-snippet) ](https://github.com/msafdev/bg-snippet/issues)
+ [![License](https://img.shields.io/github/license/msafdev/bg-snippet)](https://github.com/msafdev/bg-snippet/blob/main/LICENSE.txt)
+ [![Issues](https://img.shields.io/github/issues/msafdev/bg-snippet)](https://github.com/msafdev/bg-snippet/issues)
  [![GitHub Repo stars](https://img.shields.io/github/stars/msafdev/bg-snippet?style=flat&color=yellow)](https://github.com/msafdev/bg-snippet/stargazers)
+
 
 ## 🌌 Modern Background Snippets
 
