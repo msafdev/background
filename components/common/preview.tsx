@@ -1,7 +1,8 @@
 import { ReactNode, Suspense } from "react";
-import { Button } from "@/components/ui/button";
-
 import ReactDOMServer from "react-dom/server";
+
+import { Button } from "@/components/ui/button";
+import { useToast } from "@/components/ui/use-toast";
 
 const Preview = ({
   setPreview,
@@ -12,6 +13,8 @@ const Preview = ({
   children: ReactNode;
   containerRef?: any;
 }) => {
+  const { toast } = useToast();
+
   const copyToClipboard = (node: ReactNode) => {
     const code = ReactDOMServer.renderToString(node);
     navigator.clipboard.writeText(code);
@@ -45,6 +48,10 @@ const Preview = ({
               className="py-1 h-fit text-xs"
               onClick={() => {
                 copyToClipboard(children);
+                toast({
+                  title: "📋 copied to clipboard",
+                  description: "don't forget to give it a star!",
+                });
               }}
             >
               Snippet
