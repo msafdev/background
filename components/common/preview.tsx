@@ -6,11 +6,11 @@ import ReactDOMServer from "react-dom/server";
 const Preview = ({
   setPreview,
   children,
-  ref,
+  containerRef,
 }: {
   setPreview: (preview: ReactNode) => void;
   children: ReactNode;
-  ref?: any;
+  containerRef?: any;
 }) => {
   const copyToClipboard = (node: ReactNode) => {
     const code = ReactDOMServer.renderToString(node);
