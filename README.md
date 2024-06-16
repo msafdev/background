@@ -1,12 +1,12 @@
  [![Vercel Deploy](https://deploy-badge.vercel.app/vercel/bg-snippet)](https://bg.msaf.tech/)
- [![License](https://img.shields.io/github/license/msafdev/bg-snippet)](https://github.com/msafdev/bg-snippet/blob/main/LICENSE.txt)
- [![Issues](https://img.shields.io/github/issues/msafdev/bg-snippet)](https://github.com/msafdev/bg-snippet/issues)
- [![GitHub Repo stars](https://img.shields.io/github/stars/msafdev/bg-snippet?style=flat&color=yellow)](https://github.com/msafdev/bg-snippet/stargazers)
+ [![License](https://img.shields.io/github/license/msafdev/background)](https://github.com/msafdev/background/blob/main/LICENSE.txt)
+ [![Issues](https://img.shields.io/github/issues/msafdev/background)](https://github.com/msafdev/background/issues)
+ [![GitHub Repo stars](https://img.shields.io/github/stars/msafdev/background?style=flat&color=yellow)](https://github.com/msafdev/background/stargazers)
 
 
 ## 🌆 Modern Background Snippets
 
-![image](https://raw.githubusercontent.com/msafdev/bg-snippet/af5aaea30cb3d807e57ddac4b03b26bb9c94692a/public/cover.png)
+![image](https://raw.githubusercontent.com/msafdev/background/af5aaea30cb3d807e57ddac4b03b26bb9c94692a/public/cover.png)
 
 Supercharge your website with modern background snippets. This app provides a collection of backgrounds that you can use for your website.
 
@@ -42,7 +42,7 @@ Visit the live app [here](https://bg.msaf.tech/). Then click on the snippet you 
 
 ### 📝 Contribute
 
-Feel free to contribute to this project. For more information, check the [CONTRIBUTING.md]("https://github.com/msafdev/bg-snippet/blob/main/CONTRIBUTING.md") file.
+Feel free to contribute to this project. For more information, check the [CONTRIBUTING.md]("https://github.com/msafdev/background/blob/main/CONTRIBUTING.md") file.
 
 #### Disclaimer
 
