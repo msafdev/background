@@ -1,5 +1,5 @@
+import { Gem } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { MoveRight } from "lucide-react";
 import Link from "next/link";
 
 const Title = ({ setTheme }: { setTheme: () => void }) => {
@@ -17,8 +17,8 @@ const Title = ({ setTheme }: { setTheme: () => void }) => {
       </h1>
 
       <p className="w-full text-sm md:text-lg text-center text-muted-foreground max-w-sm sm:max-w-lg md:max-w-2xl font-medium mb-2">
-        A collection of modern background snippets. Simply copy and paste into your
-        projects. Built with{" "}
+        A collection of modern background snippets. Simply copy and paste into
+        your projects. Built with{" "}
         <Link
           href={"https://tailwindcss.com/docs"}
           target="_blank"
@@ -46,9 +46,9 @@ const Title = ({ setTheme }: { setTheme: () => void }) => {
           className="shadow-btn border-0 border-b-2"
           asChild
         >
-          <Link href="https://github.com/msafdev/bg-snippets" target="_blank">
-            Contribute
-            <MoveRight className="w-4 h-4 ml-3 inline-block" />
+          <Link href="https://trakteer.id/msafdev" target="_blank">
+            <Gem className="w-3 h-3 mr-2 inline-block" />
+            Donate
           </Link>
         </Button>
       </div>
