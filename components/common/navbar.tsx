@@ -5,7 +5,7 @@ import { Layers3 } from "lucide-react";
 
 const Navbar = () => {
   return (
-    <header className="w-full flex items-center justify-between py-2 gap-x-6">
+    <header className="w-full flex items-center justify-between py-6 gap-x-6">
       <div className="w-10 h-10 text-white bg-gradient-to-b from-indigo-400 to-indigo-600 p-2.5 flex items-center justify-center rounded-xl">
         <Layers3 />
       </div>
