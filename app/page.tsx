@@ -24,7 +24,7 @@ export default function Home() {
   return (
     <>
       {/* This is used as the container of the selected previews */}
-      <div className="fixed left-0 top-0 -z-10 h-full w-full">
+      <div className="fixed left-0 top-0 -z-10 h-screen w-screen">
         {preview ? preview : null}
       </div>
       <main
